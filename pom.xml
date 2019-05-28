@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zl</groupId>
+    <artifactId>spring-cloud-learn</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <modules>
+
+        <module>config</module>
+        <module>config-client</module>
+		
+		<module>consul-client</module>
+		
+        <module>eureka-server</module>
+        <module>eureka-server-cluster1</module>
+		<module>eureka-server-cluster2</module>
+		<module>eureka-server-cluster3</module>
+
+        <module>feign-consumer</module>
+        <module>ribbon-consumer</module>
+
+        <module>server-producer1-cluster</module>
+        <module>server-producer2-cluster</module>
+
+		<module>stream</module>
+
+        <module>zipkin-server</module>
+		<module>zipkin-stream-client</module>
+		<module>zipkin-stream-server</module>
+
+		<module>zuul</module>
+
+    </modules>
+
+</project>
