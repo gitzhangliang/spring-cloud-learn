@@ -11,7 +11,7 @@ import javax.annotation.Resource;
  * @author tzxx
  */
 @Service
-public class ComputeService {
+public class  ComputeService {
     @Resource
     RestTemplate restTemplate;
 

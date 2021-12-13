@@ -33,6 +33,7 @@
 		<module>zipkin-stream-server</module>
 
 		<module>zuul</module>
+        <module>spring-gateway</module>
 
     </modules>
 

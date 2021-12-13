@@ -38,9 +38,6 @@ public class AccessFilter extends ZuulFilter {
 
     @Override
     public Object run() {
-        if(true){
-            throw new RuntimeException("Exist some errors...");
-        }
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest request = ctx.getRequest();
 
