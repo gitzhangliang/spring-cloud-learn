@@ -34,6 +34,7 @@
 
 		<module>zuul</module>
         <module>spring-gateway</module>
+        <module>openfeign-consumer</module>
 
     </modules>
 
